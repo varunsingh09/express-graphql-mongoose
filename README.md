@@ -520,7 +520,7 @@ app.use('/', graphQLHttp({
 
 1. Mutation Example for Adding the Author
 
-![Adding Author image](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/addAuthor.jpg)
+![Adding Author image](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/addAuthor.jpg)
 
 2. Query Example for Show All Author
 

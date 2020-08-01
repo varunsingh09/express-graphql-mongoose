@@ -1,11 +1,13 @@
 const express = require('express');
 const graphQLHttp = require('express-graphql');
+const morgan = require("morgan");
 const schema = require('./src/schema');
 const mongoose = require('mongoose');
 const database = require('./config/database');
 const port = 3000;
 
 mongoose.Promise = global.Promise;
+
 mongoose.connect(database.mongoConnectionString,{ useNewUrlParser: true },(err) => {
     if(err) {
         console.log(err);
@@ -15,7 +17,7 @@ mongoose.connect(database.mongoConnectionString,{ useNewUrlParser: true },(err) 
 });
 
 const app = express();
-
+app.use(morgan("dev"));
 app.use('/', graphQLHttp({
     schema: schema,
     graphiql: true
