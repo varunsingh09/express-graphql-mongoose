@@ -524,20 +524,20 @@ app.use('/', graphQLHttp({
 
 2. Query Example for Show All Author
 
-![Show All Authors](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/authorlist.jpg)
+![Show All Authors](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/authorlist.jpg)
 
 3. Mutation for update Author Information
 
-![Update Author Info](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/updateAuthor.jpg)
+![Update Author Info](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/updateAuthor.jpg)
 
 4. Mutation for delete Author
 
-![Delete Author](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/deleteAuthor.jpg)
+![Delete Author](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/deleteAuthor.jpg)
 
 
 5. Mutation for create the post info
 
-![Create Post](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/createPost.jpg)
+![Create Post](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/createPost.jpg)
 
 6. Query for get all post with author data
 
@@ -545,7 +545,7 @@ app.use('/', graphQLHttp({
 
 7. Update Post Information
 
-![Update Post Information](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/updatePost.jpg)
+![Update Post Information](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/updatePost.jpg)
 
 
 
