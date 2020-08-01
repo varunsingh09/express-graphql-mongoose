@@ -1,5 +1,6 @@
 const express = require('express');
 const graphQLHttp = require('express-graphql');
+
 const morgan = require("morgan");
 const schema = require('./src/schema');
 const mongoose = require('mongoose');
@@ -18,6 +19,7 @@ mongoose.connect(database.mongoConnectionString,{ useNewUrlParser: true },(err) 
 
 const app = express();
 app.use(morgan("dev"));
+
 app.use('/', graphQLHttp({
     schema: schema,
     graphiql: true
