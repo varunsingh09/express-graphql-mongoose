@@ -541,7 +541,7 @@ app.use('/', graphQLHttp({
 
 6. Query for get all post with author data
 
-![All Post with author data](https://github.com/varunsingh09/express-graphql-mongoose/blob/master/images/symbol.png/blob/master/images/postinfo.jpg)
+![All Post with author data](https://github.com/varunsingh09/express-graphql-mongoose/raw/master/images/postinfo.jpg)
 
 7. Update Post Information
 
